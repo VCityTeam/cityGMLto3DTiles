@@ -12,7 +12,7 @@ For example
 
 ```bash
 $ cd `git rev-parse --show-toplevel`
-$ cd Computations/3DTiles/LyonTemporal/PythonCallingDocker
+$ cd cityGMLto3DTiles/PythonCallingDocker
 $ ln -s .envrc.tpl .envrc
 $ direnv allow
 (venv)$          # You are all set
@@ -28,7 +28,7 @@ Create a python virtual environment and activate it
 
 ```bash
 $ cd `git rev-parse --show-toplevel`
-$ cd Computations/3DTiles/LyonTemporal/PythonCallingDocker
+$ cd cityGMLto3DTiles/PythonCallingDocker
 $ virtualenv -p python3 venv
 $ . venv/bin/activate
 (venv)$ pip install -r requirements.txt
@@ -56,7 +56,7 @@ log file for troubleshooting.
 
 ```bash
 $ cd `git rev-parse --show-toplevel`
-$ cd Computations/3DTiles/LyonTemporal/PythonCallingDocker/DemoStatic
+$ cd cityGMLto3DTiles/PythonCallingDocker/DemoStatic
 (venv)$ python run_workflow_static.py
 ```
 
@@ -66,7 +66,7 @@ The following manual steps should be applied in order:
 
 ```bash
 $ cd `git rev-parse --show-toplevel`
-$ cd Computations/3DTiles/LyonTemporal/PythonCallingDocker/DemoStatic
+$ cd cityGMLto3DTiles/PythonCallingDocker/DemoStatic
 (venv)$ python run_lyon_metropole_dowload_and_sanitize_temporal.py   # result in junk/stage_1
 (venv)$ python run_split_buildings_static.py                       # result in junk/stage_2
 (venv)$ python run_strip_attributes_static.py                      # result in junk/stage_3 
@@ -96,7 +96,7 @@ log file for troubleshooting.
 
 ```bash
 $ cd `git rev-parse --show-toplevel`
-$ cd Computations/3DTiles/LyonTemporal/PythonCallingDocker/DemoTemporal
+$ cd cityGMLto3DTiles/PythonCallingDocker/DemoTemporal
 (venv)$ python run_workflow_temporal.py 
 ```
 
@@ -106,7 +106,7 @@ The following manual steps should be applied in order:
 
 ```bash
 $ cd `git rev-parse --show-toplevel`
-$ cd Computations/3DTiles/LyonTemporal/PythonCallingDocker/
+$ cd cityGMLto3DTiles/PythonCallingDocker
 (venv)$ python DemoTemporal/run_lyon_metropole_dowload_and_sanitize_temporal.py   # result in junk/stage_1
 (venv)$ python DemoTemporal/run_split_buildings_temporal.py                       # result in junk/stage_2
 (venv)$ python DemoTemporal/run_strip_attributes_temporal.py                      # result in junk/stage_3 
@@ -124,7 +124,7 @@ In order to test the containers:
 
 ```bash
 $ cd `git rev-parse --show-toplevel`
-$ cd Computations/3DTiles/LyonTemporal/PythonCallingDocker
+$ cd cityGMLto3DTiles/PythonCallingDocker/
 (venv)$ pip install pytest pytest-ordering pytest-dependency
 (venv)$ pytest
 ```
@@ -152,7 +152,7 @@ it was invoked. For example this way of invoking the temporal tiler
 
 ```bash
 $ cd `git rev-parse --show-toplevel`
-$ cd Computations/3DTiles/LyonTemporal/PythonCallingDocker
+$ cd cityGMLto3DTiles/PythonCallingDocker
 (venv)$ python demo_full_workflow.py
 ```
 
@@ -160,7 +160,7 @@ should be as effective as this way (mind the working directory difference)
 
 ```bash
 $ cd `git rev-parse --show-toplevel`
-$ cd Computations/3DTiles/LyonTemporal/PythonCallingDocker/DemoTemporal
+$ cd cityGMLto3DTiles/PythonCallingDocker
 (venv)$ python demo_full_workflow.py
 ```
 

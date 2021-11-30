@@ -1,5 +1,6 @@
 ## Pre-requisites
  - [install Python3.7](https://www.python.org/)
+   - If on macos, [install from Brew](https://docs.python-guide.org/starting/install3/osx/)
 
 ## Installing dependencies
 
@@ -34,6 +35,10 @@ $ . venv/bin/activate
 (venv)$ pip install -r requirements.txt
 ```
 
+If running on Windows the command to activate the environment is
+```bash
+$ . venv\Script\activate
+```
 ## Running the (static) tiler workflow
 
 ### Static case configuration step

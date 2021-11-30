@@ -35,7 +35,7 @@ $ . venv/bin/activate
 (venv)$ pip install -r requirements.txt
 ```
 
-If running on Windows the command to activate the environment is
+If running on Windows replace line 4 with :
 ```bash
 $ . venv\Script\activate
 ```

@@ -1,6 +1,7 @@
 ## Pre-requisites
  - [install Python3.7](https://www.python.org/)
    - If on macos, [install from Brew](https://docs.python-guide.org/starting/install3/osx/)
+ - [install docker](https://docs.docker.com/engine/install/)
 
 ## Installing dependencies
 

@@ -173,7 +173,7 @@ $ cd cityGMLto3DTiles/PythonCallingDocker
 (although the outputs will always be placed in the `junk` directory created in the
  CWD, which is an expected behavior).
 
-Yet, in practice, one of the two commandes might fail (because, for example, a
+Yet, in practice, one of the two commands might fail (because, for example, a
 subscript will look for a configuration file in the wrong directory). In order
 to debug such a mistake one must configure the debugger in order to establish
 the failing context: in this application case this means stating the "properly

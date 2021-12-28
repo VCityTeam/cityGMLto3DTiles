@@ -14,7 +14,7 @@ For example the error message will sometimes be (refer below)
 Connection to 134.214.143.170:5432 refused. Check that the hostname and port are
 correct and that the postmaster is accepting TCP/IP connections
 ```
-which might suggest that some pesky firewall gets in the way or that de
+which might suggest that some pesky firewall gets in the way or that the
 containerized database was not launched at all.
 
 Yet it is easy to check that the problem is not of this nature and is not at 
